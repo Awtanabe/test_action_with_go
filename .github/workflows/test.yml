@@ -2,7 +2,7 @@ name: Test
 on:
   pull_request:
     paths:
-      - 'go/**/*.go'
+      - './go/**/*.go'
 jobs:
   test:
     runs-on: ubuntu-latest
